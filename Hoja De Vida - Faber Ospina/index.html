@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Created By: Faber Ospina Cortes -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOJA DE VIDA</title>
+
+    <!-- Font Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <style>
+      :root{
+        --blue: #0DCAF0;
+        --black: #000;
+      }
+      *{
+        font-family: 'Rubik', sans-serif;
+      }
+      .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      *::selection{
+        background-color: var(--black);
+        color:var(--blue);
+      }
+
+      *::-webkit-scrollbar{
+        height: .5rem;
+        width: 1rem;
+      }
+
+      *::-webkit-scrollbar-track{
+        background-color: transparent;
+      }
+
+      *::-webkit-scrollbar-thumb{
+        background-color: var(--blue);
+      }
+
+      .nav-link:hover {
+        color: var(--blue);
+      }
+    </style>
+
+</head>
+<body>
+    
+    <!-- Inicio Seccion Header -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5" href="#"><b><span class="text-info">HOJA</span> DE VIDA</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light navbar-hover" href="#datos-personales">Datos Personales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light navbar-hover" href="#informacion-academica">Información Académica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light navbar-hover" href="#informacion-laboral">Información Laboral</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light navbar-hover" href="#referencias">Referencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light navbar-hover" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>   
+    
+    <!-- Fin Seccion Header -->
+
+    <!-- Inicio Seccion Home -->
+
+    <section id="home" class="container py-5 shadow my-4">
+      <div class="row text-center justify-content-center mx-5">
+        <div class="col-md-6 my-auto">
+          <img src="pics/io.jpg" alt="Mi foto personal" class="border border-dark border-5 border-dashed shadow w-100 p-2 img-fluid">
+        </div>
+        <div class="col-md-6 my-auto">
+          <div class="d-inline-block text-center" style="width: 100%;">
+            <h2 class="my-3"><b>HOLA, SOY FABER OSPINA</b></h2>
+            <p class="bg-info d-inline-block p-2"> Estudiante & Futuro Desarrollador Web </p>
+          </div>
+          <div class="d-flex justify-content-center mt-1">
+            <a href="#datos-personales" class="btn btn-outline-dark rounded-0 border border-dark border-2"><b>Acerca De Mí</b></a>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Fin Seccion Home -->
+    
+    <!-- Inicio Seccion Datos Personales -->
+
+    <section id="datos-personales" class="container py-5 shadow my-4">
+      <h1 class="text-center text-lg mb-4 text-decoration-underline"><b>DATOS PERSONALES</b></h1>
+      <div class="row justify-content-center">
+        <div class="mb-3">
+          <div class="row">
+            <div class="d-flex justify-content-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Nombres:</b> Faber Antonio</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Apellidos:</b> Ospina Cortes</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Edad:</b> 21 años</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>País:</b> Colombia</p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Celular:</b> +57 322 415 5368</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Email:</b> fospina@unicauca.edu.co</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Ciudad de residencia:</b> Popayan</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-1 d-none d-md-block"><b>Ciudad de origen:</b> Pitalito</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Nombres:</b> Faber Antonio</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Apellidos:</b> Ospina Cortes</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Edad:</b> 21 años</p>
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>País:</b> Colombia</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Celular:</b> +57 322 415 5368</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Email:</b> fospina@unicauca.edu.co</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Ciudad de residencia:</b> Popayan</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center">
+              <p class="bg-light border border-dark border-4 p-2 mx-2 my-1 d-block d-md-none"><b>Ciudad de origen:</b> Pitalito</p>
+            </div>
+          </div>                    
+        </div>
+      </div>
+    </section>
+
+    <!-- Fin Seccion Datos Personales -->
+    
+    <!-- Inicio Seccion Informacion Academica -->
+
+    <section id="informacion-academica" class="container py-5 shadow my-4">
+      <h1 class="text-center text-lg mb-4 text-decoration-underline mx-4"><b>INFORMACIÓN ACADÉMICA</b></h1>
+      <div class="row justify-content-center mx-4">
+        <div class="col-lg-6 col-md-12">
+          <h2 class="text-center p-2 mb-4 bg-info">Educación</h2>
+          <div class="border border-dark border-4 p-4 mb-4">
+            <p><b>Universidad del Cauca</b><br>
+              Ingenieria de Sistemas - Septimo Semestre (2019 - )</p>
+            <p><b>Institucion Educativa Municipal Nacional</b><br>
+              Bachiller (2013 - 2018)</p>
+            <p><b>Institucion Educativa Municipal Nacional - Sede Las Americas</b><br>
+              Basica Primaria (2007 - 2012)</p>           
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <h2 class="text-center p-2 mb-4 bg-info">Cursos y Certificaciones</h2>
+          <div class="border border-dark border-4 p-4 mb-4">
+            <p><b>Curso de Desarrollo Web con HTML, CSS y JavaScript</b><br>
+              Udemy (2020)</p>
+            <p><b>Desarrollo de Aplicaciones con Interfaz Grafica, Manejo de Datos, Clases y Objetos: JAVA</b><br>
+              Sena (2023)</p>
+            <p><b>Desarrollo Web con PHP</b><br>
+              Sena (2023)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Fin Seccion Informacion Academica -->
+
+    <!-- Inicio Seccion Informacion Laboral -->
+
+    <section id="informacion-laboral" class="container py-5 shadow my-4">
+      <h1 class="text-center text-lg mb-4 text-decoration-underline mx-4"><b>INFORMACIÓN LABORAL</b></h1>
+      <div class="row justify-content-center mx-4">
+        <div class="col-md-8">
+          <div class="card border border-dark border-4 rounded-0 p-4">
+            <h5 class="card-title text-center bg-info p-2">Minimercado Las Acacias</h5>
+            <p class="card-text text-center mb-0">Cargo: Cajero</p>
+            <p class="card-text text-center">Fecha de inicio: 2010 - </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>Experiencia 1:</b> Atención, formas de trato adecuada y eficacia al atender clientes.</li>
+              <li class="list-group-item"><b>Experiencia 2:</b> Manejo optimo del dinero y su cambio.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Fin Seccion Informacion Laboral -->
+
+    <!-- Inicio Seccion Referencias -->
+
+    <section id="referencias" class="container py-5 shadow my-4">
+      <h1 class="text-center text-lg mb-4 text-decoration-underline"><b>REFERENCIAS</b></h1>
+      <div class="row mx-4">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border border-dark border-4 rounded-0">
+            <div class="card-body">
+              <h5 class="card-title bg-info p-2">Ximena Martinez</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Cliente</h6>
+              <p class="card-text">"Nunca he tenido una mala experiencia mientras esta persona me atiende en el minimercado. Es muy servicial y siempre se asegura de que tenga todo lo que necesito antes de irme."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border border-dark border-4 rounded-0">
+            <div class="card-body">
+              <h5 class="card-title bg-info p-2">Orlando Figueroa</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Cliente</h6>
+              <p class="card-text">"El trabajo de Faber en el minimercado es simplemente increíble. Siempre está dispuesto a ayudar y es muy eficiente en su trabajo."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border border-dark border-4 rounded-0">
+            <div class="card-body">
+              <h5 class="card-title bg-info p-2">Oscar Jimenez</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Cliente</h6>
+              <p class="card-text">"Es muy eficiente y hace que el proceso de pago y despacho sea rápido. Definitivamente aprecio su excelente atención al cliente"."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Fin Seccion Referencias -->
+
+    <!-- Inicio Seccion Contacto -->
+
+    <section id="contacto" class="container py-5 shadow my-4">
+      <h1 class="text-center text-lg mb-4 text-decoration-underline"><b>CONTACTO</b></h1>
+      <div class="row justify-content-center mx-4">
+        <div class="col-lg-8">
+          <form>
+            <div class="form-floating mb-3 border border-dark border-4 rounded-0">
+              <input type="text" class="form-control" id="floatingName" placeholder="Tu nombre">
+              <label for="floatingName"><b>Nombre completo</b></label>
+            </div>
+            <div class="form-floating mb-3 border border-dark border-4 rounded-0">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="Tu email">
+              <label for="floatingEmail"><b>Correo electrónico</b></label>
+            </div>
+            <div class="form-floating mb-3 border border-dark border-4 rounded-0">
+              <textarea class="form-control" placeholder="Escribe aquí tu mensaje" id="floatingMessage" style="height: 200px"></textarea>
+              <label for="floatingMessage"><b>Mensaje</b></label>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-outline-dark border border-dark border-4 rounded-0"><b>Enviar mensaje</b></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fin Seccion Contacto -->
+
+    <!-- Inicio Seccion Footer -->
+      
+    <footer class="bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">© 2023 | Faber Ospina | Todos los Derechos Reservados!</p>
+          </div>
+          <div class="col-md-6 text-end">
+            <a href="#" target="_blank" class="text-light me-4"><i class="bi bi-twitter"></i></a>
+            <a href="#" target="_blank" class="text-light me-4"><i class="bi bi-linkedin"></i></a>
+            <a href="#" target="_blank" class="text-light me-4"><i class="bi bi-github"></i></a>
+            <a href="#" target="_blank" class="text-light me-4"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Fin Seccion Footer -->
+</body>
+</html>
